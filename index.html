@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喵喵喵</title>
+    <style>
+        body {
+            font-size: 100px;
+            text-align: center;
+        }
+        @keyframes anim {
+            0% {
+                font-size: 100px;
+            }
+            50% {
+                font-size: 200px;
+            }
+            100% {
+                font-size: 100px;
+            }
+        }
+        .anim {
+            animation-name: anim;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            color: red;
+            text-shadow: 0 0 10px yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="anim">喵喵喵喵喵喵</h1>
+</body>
+</html>
